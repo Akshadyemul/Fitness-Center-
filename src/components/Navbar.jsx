@@ -1,8 +1,8 @@
 function Navbar() {
   return (
-    <div className="flex p-4 justify-evenly items-center">
+    <div className="flex p-4 justify-evenly items-center fixed top-0 left-0 w-full bg-transparent text-white z-50">
       <div>
-        <h1 className="text-3xl font-bold">Seminar</h1>
+        <h1 className="text-3xl font-bold">FitCenter</h1>
       </div>
       <div className="">
         <ul className="flex gap-6 cursor-pointer">
@@ -15,7 +15,7 @@ function Navbar() {
         </ul>
       </div>
       <div>
-        <button className="p-1.5 bg-red-500 rounded-lg text-white"><h4>Join Now</h4></button>
+        <button className="p-1.5  hover:bg-gray-700 cursor-pointer bg-gray-900 rounded-lg text-white"><h4>Join Now</h4></button>
       </div>
     </div>
   );
