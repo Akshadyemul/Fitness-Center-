@@ -1,4 +1,4 @@
-# React + Vite
+![image](https://github.com/user-attachments/assets/2136484c-3c38-4562-8799-9cc38f4d615e)# React + Vite
 # FitCenter – Fitness Club Website
 
 A modern, responsive fitness center web app built with **React** and **Tailwind CSS**. Users can explore trainer profiles, view membership plans, check services, and interact with a clean UI designed to enhance their fitness journey.
@@ -18,7 +18,7 @@ A modern, responsive fitness center web app built with **React** and **Tailwind 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech
 
 - **React** (Functional Components)
 - **Tailwind CSS** (Utility-first CSS framework)
@@ -26,31 +26,34 @@ A modern, responsive fitness center web app built with **React** and **Tailwind 
 
 ---
 
+## 📁 Folder Structure
+
+```bash
 Fitness-Center/
 ├── public/
 ├── src/
-│ ├── assets/ # Images, videos (e.g., home.mp4, check.png)
-│ ├── components/ # Reusable components like Footer and Navbar
-│ │ ├── Footer.jsx
-│ │ └── Navbar.jsx
-│ ├── data/ # Static data files
-│ │ └── trainers.js
-│ ├── pages/ # All page components
-│ │ ├── Home.jsx
-│ │ ├── MembershipPlans.jsx
-│ │ ├── Services.jsx
-│ │ └── TrainerProfile.jsx
-│ ├── App.jsx # Main component rendering all pages
-│ ├── App.css
-│ ├── index.css
-│ └── main.jsx # React root file
+│   ├── assets/               # Images and videos (e.g., home.mp4, check.png)
+│   ├── components/           # Reusable components like Footer and Navbar
+│   │   ├── Footer.jsx
+│   │   └── Navbar.jsx
+│   ├── data/                 # Static data files
+│   │   └── trainers.js
+│   ├── pages/                # All page components
+│   │   ├── Home.jsx
+│   │   ├── MembershipPlans.jsx
+│   │   ├── Services.jsx
+│   │   └── TrainerProfile.jsx
+│   ├── App.jsx               # Main component rendering all pages
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx              # React root file
 ├── index.html
-├── vite.config.js # Vite configuration
+├── vite.config.js            # Vite configuration
 ├── package.json
+├── package-lock.json
 ├── README.md
 └── .gitignore
-
----
+```
 
 # Get Start
 
