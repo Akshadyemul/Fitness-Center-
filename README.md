@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/2136484c-3c38-4562-8799-9cc38f4d615e)# React + Vite
 # FitCenter – Fitness Club Website
 
 A modern, responsive fitness center web app built with **React** and **Tailwind CSS**. Users can explore trainer profiles, view membership plans, check services, and interact with a clean UI designed to enhance their fitness journey.
