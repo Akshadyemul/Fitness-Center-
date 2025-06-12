@@ -63,6 +63,8 @@ https://github.com/Akshadyemul/Fitness-Center-.git
 
 cd Fitness-Center--main
 
+npm run dev
+
 # ScreenShots
 ![Screenshot From 2025-06-12 09-10-59](https://github.com/user-attachments/assets/d7034f91-04db-4491-a1d6-c54054f7e03f)
 ![Screenshot From 2025-06-12 09-11-03](https://github.com/user-attachments/assets/d6bdeb24-8f01-46a0-9353-d9313fa7d067)
