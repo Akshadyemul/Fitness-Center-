@@ -1,15 +1,65 @@
 # React + Vite
+# FitCenter – Fitness Club Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive fitness center web app built with **React** and **Tailwind CSS**. Users can explore trainer profiles, view membership plans, check services, and interact with a clean UI designed to enhance their fitness journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# Features
+-  Navbar with this this components
+-  **Trainer Profiles** – Browse expert trainers with photos, bios, specialties, and experience.
+-  **Membership Plans** – View available plans with pricing and features.
+-  **Service Plans** – Overview of gym, yoga, cardio, and personal training services.
+-  **Modern UI** – Built using Tailwind CSS with responsive design.
+-  **View More Modal** – Trainer details shown in modal on button click.
+-  Footer with social links and contact info.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (Functional Components)
+- **Tailwind CSS** (Utility-first CSS framework)
+- **Responsive Design** (Mobile-friendly)
+
+---
+
+Fitness-Center/
+├── public/
+├── src/
+│ ├── assets/ # Images, videos (e.g., home.mp4, check.png)
+│ ├── components/ # Reusable components like Footer and Navbar
+│ │ ├── Footer.jsx
+│ │ └── Navbar.jsx
+│ ├── data/ # Static data files
+│ │ └── trainers.js
+│ ├── pages/ # All page components
+│ │ ├── Home.jsx
+│ │ ├── MembershipPlans.jsx
+│ │ ├── Services.jsx
+│ │ └── TrainerProfile.jsx
+│ ├── App.jsx # Main component rendering all pages
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx # React root file
+├── index.html
+├── vite.config.js # Vite configuration
+├── package.json
+├── README.md
+└── .gitignore
+
+---
+
+# Get Start
+
+# Clone the repository
+https://github.com/Akshadyemul/Fitness-Center-.git
+
+cd Fitness-Center--main
+
+
 # Fitness-Center-
 # Fitness-Center-
 # Fitness-Center-
