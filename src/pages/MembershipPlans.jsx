@@ -1,7 +1,7 @@
 import React from "react";
 import CheckIcon from "../assets/check.png";
 
-function MembershipPlans() {
+function MembershipPlans({ setIsModalOpen }) {
   const plans = [
     {
       id: 1,
@@ -109,7 +109,7 @@ function MembershipPlans() {
           </article>
         ))}
         <div className="col-span-full flex justify-center">
-          <button className="px-12 py-3  border border-white rounded-lg text-white font-semibold hover:bg-gray-600 transition-opacity">
+          <button onClick={() => setIsModalOpen(true)} className="px-12 py-3   border border-white rounded-lg text-white font-semibold hover:bg-gray-600 transition-opacity">
             Book Demo Class
           </button>
         </div>
@@ -117,7 +117,10 @@ function MembershipPlans() {
 
       <div className="max-w-7xl text-center px-6">
         <h1 className="text-2xl font-extrabold tracking-tight text-white mx-auto max-w-6xl leading-tight">
-          We Have Over 1000 Satisfied And Happy Customers
+          We Have Over 1000+ Satisfied And Happy Customers
+        </h1>
+                <h1 className="text-2xl font-extrabold tracking-tight text-white mx-auto max-w-6xl leading-tight">
+          Over 50+ Gym's Are Using Our Service
         </h1>
       </div>
     </div>

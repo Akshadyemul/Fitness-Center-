@@ -1,13 +1,13 @@
 import { useState } from "react";
 
-function Navbar() {
-  const [isOpen, setIsOpen] = useState(false);
+function Navbar({ setIsModalOpen }) {
+  const [menuOpen, setMenuOpen] = useState(false); // this is only for hamburger menu
+
   return (
     <div className="flex p-4 justify-evenly items-center fixed top-0 left-0 w-full bg-transparent text-white z-50">
       <div>
         <h1 className="text-3xl font-bold cursor-pointer">
-          {" "}
-          <a href="#home">FitCenter</a>{" "}
+          <a href="#home">FitCenter</a>
         </h1>
       </div>
 
@@ -33,17 +33,19 @@ function Navbar() {
           </a>
         </li>
       </ul>
+
       <div className="hidden md:block">
-        <button className="px-12 py-2 hover:bg-gray-600 cursor-pointer border border-white rounded-lg text-white">
+        <button
+          onClick={() => setIsModalOpen(true)}
+          className="px-12 py-2 hover:bg-white hover:text-black cursor-pointer border border-white rounded-lg text-white"
+        >
           <h4>Join Now</h4>
         </button>
       </div>
 
+      {/* Hamburger Menu Icon */}
       <div className="md:hidden">
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className="focus:outline-none"
-        >
+        <button onClick={() => setMenuOpen(!menuOpen)} className="focus:outline-none">
           <svg
             className="w-6 h-6"
             fill="none"
@@ -51,7 +53,7 @@ function Navbar() {
             viewBox="0 0 24 24"
             xmlns="http://www.w3.org/2000/svg"
           >
-            {isOpen ? (
+            {menuOpen ? (
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -70,8 +72,6 @@ function Navbar() {
         </button>
       </div>
     </div>
-
-
   );
 }
 

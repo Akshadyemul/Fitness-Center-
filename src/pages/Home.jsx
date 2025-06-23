@@ -1,6 +1,6 @@
 import React from "react";
 
-function Home() {
+function Home({ setIsModalOpen }) {
   return (
     <div className="relative h-screen w-full" id="home">
       <img
@@ -22,12 +22,12 @@ function Home() {
             Join <span className="font-semibold text-white">FitCenter</span> today and train with expert personal
             trainers who will guide you every step of the way.
           </p>
-          <a
-            href="#signup"
+          <button
+            onClick={() => setIsModalOpen(true)}
             className="inline-block mt-10 px-10 py-3 bg-transparent border border-white text-white text-lg font-semibold rounded-lg hover:bg-white hover:text-black transition duration-300"
           >
             Get Started
-          </a>
+          </button>
         </section>
       </div>
     </div>
